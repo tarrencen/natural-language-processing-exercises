@@ -1,0 +1,15 @@
+*.csv
+env.py
+explore.py
+__pycache__/
+__init__.py
+.DS_Store
+.ipynb_checkpoints/
+*.xlsx
+*lesson.ipynb
+*_warmup.ipynb
+test_scratch.ipynb
+*.pdf
+*.png
+*.jpeg
+*.json
