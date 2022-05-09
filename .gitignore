@@ -9,6 +9,7 @@ __init__.py
 *lesson.ipynb
 *_warmup.ipynb
 regex_lesson_student.ipynb
+nlp_prepare.ipynb
 *.pdf
 *.png
 *.jpeg
