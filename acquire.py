@@ -5,11 +5,12 @@ import os
 from bs4 import BeautifulSoup
 
 def get_cublog_urls():
-    '''
+   '''
     Returns urls from the codeup.com blog
     '''
-    headers = {'user-agent': 'Innis Codeup Data Science'}
-    response = requests.get('https://codeup.com/blog/', headers=headers)
+    codeup_url = 'https://codeup.com/blog/'
+    headers = {'user-agent': 'Innis Data Science Cohort'}
+    response = requests.get(codeup_url, headers=headers)
     soup = BeautifulSoup(response.text)
     urls = [a.attrs['href'] for a in soup.select('a.more-link')]
     return urls
