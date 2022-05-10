@@ -10,6 +10,7 @@ __init__.py
 *_warmup.ipynb
 regex_lesson_student.ipynb
 nlp_prepare.ipynb
+nlp_explore.ipynb
 *.pdf
 *.png
 *.jpeg
