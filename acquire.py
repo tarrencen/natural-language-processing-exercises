@@ -5,7 +5,7 @@ import os
 from bs4 import BeautifulSoup
 
 def get_cublog_urls():
-   '''
+    '''
     Returns urls from the codeup.com blog
     '''
     codeup_url = 'https://codeup.com/blog/'
